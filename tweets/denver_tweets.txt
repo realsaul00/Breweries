@@ -1202,3 +1202,4 @@ Wet brisket, lettuce, tomato 🍅, onions, pickles and mayo on a hoagie… https
 1027690218814459904,2018-08-09 22:56:56,RT @CaskAleLA: Cask is in decline in the UK but breweries like @RealCaskAle @hogsheadbrewery @MacLeodAle &amp; Brewers Union Local 180 keeping…,,1027690218814459904,Twitter for Android
 1027690139139563520,2018-08-09 22:56:37,"RT @MacLeodAle: @CaskAleLA @RealCaskAle @hogsheadbrewery While our price for cask ale is nowhere near as low as the UK, it is lower than ou…",,1027690139139563520,Twitter for Android
 1027690039306637312,2018-08-09 22:56:13,@explodingwalrus @rudgatebrewery How is it all the way over there?,,1027690039306637312,Twitter for Android
+1027620808506724353,2018-08-09 18:21:07,Hit the American Bar but starting at the lower end ABV wise - nice drop of brown - Drinking a Downtown Julie Brown… https://t.co/Mb5CCii1HY,"{'type': 'Point', 'coordinates': [51.4965, -0.210056]}",1027620808506724353,Untappd
