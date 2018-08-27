@@ -32,6 +32,15 @@ and word frequency distributions for the category feature which was all string o
 to formulate an inital plan of attack. It was in this step that I discover the identity of the top six brewery markets in 
 the U.S. 
 
-## DATA PREP
+## DATA PREP1
 This notebook was a continuation of the previous one. For this section I contined exploring the dataset but with a plan in mind. First, I created six subsets for the top six brewery cities. I inspected to see what proportion of observations contained twitter account names and website information. Subsequently, I began experimenting with geopy to fill in missing latitude and longitude information. This however failed since the API would not time me out constantly. After several failed attempts I decided to resort back to Google Sheets and Awesome Table geocoding services. 
+
+## DATA PREP2
+After successfully filling for most missing values in latitude and longitude I continued with data preparation phase. I dropped eight rows where latitude and longitude could not be encoded. I then proceeded to plot the six brewery markets. I discovered that instead of six clusters I was seeing eleven clusters. I investigated the problem and it turns out that there two cities with the same name. I then used k-means to filter out the unwanted clusters.
+
+## KNN IMPUTE
+The dataset was almost ready for streaming, however the postalCodes column had 128 missing values. For practice, I decided to use KNN to impute for missing zip code values. I figured I can build an accurate KNN model using latitude and longitude as the predictors and would achieve a high accuracy rate. I first trained the model on the known observations and then when I was getting 90.5% accuracy I decided to apply the model on the missing observations and impute for missing values. I inspected the results and was satisfied with the output. 
+
+## WORD COUNTER
+
 
