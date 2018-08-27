@@ -34,8 +34,6 @@ the U.S.
 
 ## DATA PREP1
 This notebook was a continuation of the previous one. For this section I contined exploring the dataset but with a plan in mind. First, I created six subsets for the top six brewery cities. I inspected to see what proportion of observations contained twitter account names and website information. Subsequently, I began experimenting with geopy to fill in missing latitude and longitude information. This however failed since the API would not time me out constantly. After several failed attempts I decided to resort back to Google Sheets and Awesome Table geocoding services. 
-
-## DATA PREP2
 After successfully filling for most missing values in latitude and longitude I continued with data preparation phase. I dropped eight rows where latitude and longitude could not be encoded. I then proceeded to plot the six brewery markets. I discovered that instead of six clusters I was seeing eleven clusters. I investigated the problem and it turns out that there two cities with the same name. I then used k-means to filter out the unwanted clusters.
 
 ## KNN IMPUTE
