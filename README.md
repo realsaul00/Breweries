@@ -16,15 +16,14 @@ mislabeled information. For this project, I will be using this dataset to unders
 in the U.S and find out what are top brewery cities in the country. 
 
 ### Data Science Problem
-To conduct a successful Data Science project, one must first ask a question. For this project I want to know what 
-people are saying about craft beer in the top six brewery cities of the nation. To accomplish this, I plan to use
-Python, Machine Leanrning, NLP, and Tableau to discover what people are saying about craft beer in the top brewery 
-cities. 
+To conduct a successful Data Science project, one must first ask a question. For this project I wanted to know what 
+people are saying about craft beer in the top six brewery cities of the nation. To accomplish this, I used various 
+tools such as Python, Machine Leanrning, NLP, and Tableau.
 
 ### About the Project
-The project has five main steps. The first step is to define a problem and ask a question. For this project, I have 
-stated that my intent was to find out what the top brewery cities are saying about craft beer. Step two, involves initial 
-Exploratory Data Aanalysis(EDA) and formulate a plan of attack. The third step involved data cleaning and preparation. 
-The fourth step is to stream the data and prepare the data for analysis. Finally, in step five involves drawing analysing 
-the output, drawing insights, and cocluding with observations or recomendations. 
+This project has five main steps. The first step is to define a problem and ask a question. For this project, I have 
+stated that my intent was to find out what people are saying in the top six brewery city markets. Step two, involved initial 
+Exploratory Data Aanalysis(EDA) and the formulation of a plan of attack. The third step was extensive and exhausting as it involved data cleaning and preparation. The fourth step was to stream the data, and prepare the data for analysis. Finally, in step five I analyze and conclude with insights about the data.
+
+##
 
