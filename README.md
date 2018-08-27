@@ -48,5 +48,7 @@ The goal for this section was to understand the newly streamed tweets. I went ah
 ## TWEETS DATA PREP
 The first step was to combine the six csv tweet files into one. I then introduced the tweet column feature to a function that would clea, filter, lowercase, and remove special characters from the tweets. I will then print out the result in a newly created column. Subsequently, I wanted to extract certain information from the tweet such what beer names people were tweeting about. I created a function that would return a beer name if one existed. A seperate function would return 'no beer found' for those rows that did not contain a beer name. Furthermore, I eliminated any duplicate values and my final output had 6018 total observations and 11 column features.
 
-##
+## Conclusion & Insights
+Some key insights that I take from this project is that breweries in the top six are more likely to have twitter and website account than those in other parts of the country. There is alot of cleaning and preparation that goes with NLP and there is no one size fits all solution. Furthermore, there is a lot of information that can be derived from the meta data of the piece of 
+string as well. Finally, people are using industry specific applicaitons such as Untappd and DPBeerDashboard to tell the world what they are drinking. 
 
