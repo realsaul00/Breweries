@@ -23,7 +23,14 @@ tools such as Python, Machine Leanrning, NLP, and Tableau.
 ### About the Project
 This project has five main steps. The first step is to define a problem and ask a question. For this project, I have 
 stated that my intent was to find out what people are saying in the top six brewery city markets. Step two, involved initial 
-Exploratory Data Aanalysis(EDA) and the formulation of a plan of attack. The third step was extensive and exhausting as it involved data cleaning and preparation. The fourth step was to stream the data, and prepare the data for analysis. Finally, in step five I analyze and conclude with insights about the data.
+Exploratory Data Aanalysis(EDA) and the formulation of a plan of attack. The third step was extensive and exhausting as it involved data cleaning and preparation. The fourth step was to stream the data, and prepare the data for analysis. Finally, in step five I analyze and conclude with insights about the data. As you will see there are several files with capital letter that contain a Jupyter Notebook extention. I will provide a summary for each in the subsequent paragraphs. 
+
+## EDA
+The intent for this part of the project was understand the strenghts and weaknesses of the dataset. I printed value counts
+and summaries for each column feature to understand each contributing feature. I went ahead and created several word clouds 
+and word frequency distributions for the category feature which was all string objects. Understanding each feature allowed
+to formulate an inital plan of attack. It was in this step that I discover the identity of the top six brewery markets in 
+the U.S. 
 
 ##
 
