@@ -32,7 +32,7 @@ and word frequency distributions for the category feature which was all string o
 to formulate an inital plan of attack. It was in this step that I discover the identity of the top six brewery markets in 
 the U.S. 
 
-## DATA PREP1
+## DATA PREP
 This notebook was a continuation of the previous one. For this section I contined exploring the dataset but with a plan in mind. First, I created six subsets for the top six brewery cities. I inspected to see what proportion of observations contained twitter account names and website information. Subsequently, I began experimenting with geopy to fill in missing latitude and longitude information. This however failed since the API would not time me out constantly. After several failed attempts I decided to resort back to Google Sheets and Awesome Table geocoding services. 
 After successfully filling for most missing values in latitude and longitude I continued with data preparation phase. I dropped eight rows where latitude and longitude could not be encoded. I then proceeded to plot the six brewery markets. I discovered that instead of six clusters I was seeing eleven clusters. I investigated the problem and it turns out that there two cities with the same name. I then used k-means to filter out the unwanted clusters.
 
@@ -42,5 +42,8 @@ The dataset was almost ready for streaming, however the postalCodes column had 1
 ## STREAM TWEETS
 The dataset was finally ready and I was ready to stream tweets for each brewery in the top six that contained a twitter name. I began with creating a list of those breweries. I used the Twitter API tweepy to stream tweets about breweries in the top six markets. Since Twitter API had limitations on the number tweets that could be streamed at a time, I decided to stream at least 1000 unique tweets per city. I after several hours I had a six csv files with 6280 tweets.
 
-## 
+## TWEETS EDA
+The goal for this section was to understand the newly streamed tweets. I went ahead and ploted density curves, histograms, and series plots regarding tweet lenght. I also analyzed the tweets for the different cities in word clouds to better understand the tweets and what they contained. It was in this section that realized and understood how you can spot trends and retweets by ploting tweets by lenght. 
+
+##
 
