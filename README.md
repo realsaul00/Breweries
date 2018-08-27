@@ -52,3 +52,13 @@ The first step was to combine the six csv tweet files into one. I then introduce
 Some key insights that I take from this project is that breweries in the top six are more likely to have twitter and website account than those in other parts of the country. There is alot of cleaning and preparation that goes with NLP and there is no one size fits all solution. Furthermore, there is a lot of information that can be derived from the meta data of the piece of 
 string as well. Finally, people are using industry specific applicaitons such as Untappd and DPBeerDashboard to tell the world what they are drinking. 
 
+## Sources
+http://docs.tweepy.org/en/v3.5.0/api.html
+https://www.youtube.com/watch?v=mcJ2wPgkavw
+https://www.youtube.com/watch?v=ikSEtMp1WVM
+https://www.youtube.com/watch?v=P_q0tkYqvSk&t=302s
+https://chrisalbon.com
+https://seaborn.pydata.org/index.html
+https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
+
+
