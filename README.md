@@ -1,5 +1,5 @@
 # The Top Six
-### Using Python, Machine, and NLP to discover insightful data about the top six brewery cities in the U.S. 
+### Using Python, Machine Learning, and NLP to discover insightful data. 
 You can download the complete 8260_1.csv file from https://www.kaggle.com/datafiniti/breweries-brew-pubs-in-the-usa
 
 ### by Saul Tamariz
@@ -12,4 +12,11 @@ The dataset from kaggle.com contains 17,823 observations and 15 column features 
 and abroad. Information such as Id, address, categories, city, country, hours, keys, latitude, longitude,
 menus, name, postalCode, province, twitter, and websites is provided. There are many missing in key features 
 such as latitude and longitude. Other categorical features such as address, city, and province information has 
-mislabeled information. 
+mislabeled information. For this project, I will be using this dataset to understand the craft brewery market
+in the U.S and find out what are top brewery cities in the country. 
+
+### Data Science Problem
+To conduct a successful Data Science project, one must first ask a question. For this project I want to know what 
+people are saying about craft beer in the top six brewery cities of the nation. To accomplish this, I plan to use
+Python, Machine Leanrning, NLP, and Tableau to discover what people are saying about craft beer in the top brewery 
+cities. 
