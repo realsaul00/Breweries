@@ -41,6 +41,8 @@ After successfully filling for most missing values in latitude and longitude I c
 ## KNN IMPUTE
 The dataset was almost ready for streaming, however the postalCodes column had 128 missing values. For practice, I decided to use KNN to impute for missing zip code values. I figured I can build an accurate KNN model using latitude and longitude as the predictors and would achieve a high accuracy rate. I first trained the model on the known observations and then when I was getting 90.5% accuracy I decided to apply the model on the missing observations and impute for missing values. I inspected the results and was satisfied with the output. 
 
-## WORD COUNTER
+## STREAM TWEETS
+The dataset was finally ready and I was ready to stream tweets for each brewery in the top six that contained a twitter name. I began with creating a list of those breweries. I used the Twitter API tweepy to stream tweets about breweries in the top six markets. Since Twitter API had limitations on the number tweets that could be streamed at a time, I decided to stream at least 1000 unique tweets per city. I after several hours I had a six csv files with 6280 tweets.
 
+## 
 
