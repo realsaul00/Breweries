@@ -7,4 +7,7 @@ MSDS696-Final Project
 
 Check out my video at https://www.youtube.com/watch?v=EhDtFO1d0KE&feature=youtu.be
 
-
+### About the Data
+The dataset from kaggle.com contains 17,823 observations and 15 column features of breweries in the U.S
+and abroad. Information such as Id, address, categories, city, country, hours, keys, latitude, longitude,
+menus, name, postalCode, province, twitter, and websites is provided. 
