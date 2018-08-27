@@ -1,4 +1,4 @@
-# The Top Six
+### The Top Six
 ## Using Python, Machine, and NLP to discover insightful data about the top six brewery cities in the U.S. 
 
 ## by Saul Tamariz
