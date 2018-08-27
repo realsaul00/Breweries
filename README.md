@@ -45,5 +45,8 @@ The dataset was finally ready and I was ready to stream tweets for each brewery 
 ## TWEETS EDA
 The goal for this section was to understand the newly streamed tweets. I went ahead and ploted density curves, histograms, and series plots regarding tweet lenght. I also analyzed the tweets for the different cities in word clouds to better understand the tweets and what they contained. It was in this section that realized and understood how you can spot trends and retweets by ploting tweets by lenght. 
 
+## TWEETS DATA PREP
+The first step was to combine the six csv tweet files into one. I then introduced the tweet column feature to a function that would clea, filter, lowercase, and remove special characters from the tweets. I will then print out the result in a newly created column. Subsequently, I wanted to extract certain information from the tweet such what beer names people were tweeting about. I created a function that would return a beer name if one existed. A seperate function would return 'no beer found' for those rows that did not contain a beer name. Furthermore, I eliminated any duplicate values and my final output had 6018 total observations and 11 column features.
+
 ##
 
