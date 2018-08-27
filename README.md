@@ -20,3 +20,11 @@ To conduct a successful Data Science project, one must first ask a question. For
 people are saying about craft beer in the top six brewery cities of the nation. To accomplish this, I plan to use
 Python, Machine Leanrning, NLP, and Tableau to discover what people are saying about craft beer in the top brewery 
 cities. 
+
+### About the Project
+The project has five main steps. The first step is to define a problem and ask a question. For this project, I have 
+stated that my intent was to find out what the top brewery cities are saying about craft beer. Step two, involves initial 
+Exploratory Data Aanalysis(EDA) and formulate a plan of attack. The third step involved data cleaning and preparation. 
+The fourth step is to stream the data and prepare the data for analysis. Finally, in step five involves drawing analysing 
+the output, drawing insights, and cocluding with observations or recomendations. 
+
