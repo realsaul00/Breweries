@@ -53,7 +53,7 @@ The dataset was almost ready for streaming, however the postalCodes column had 1
 ![pic5](https://user-images.githubusercontent.com/36432832/44661301-73221680-a9c7-11e8-80b0-5a0e4d5ce40c.png)
 
 ## STREAM TWEETS
-The dataset was finally ready and I was ready to stream tweets for each brewery in the top six that contained a twitter name. I began with creating a list of those breweries. I used the Twitter API tweepy to stream tweets about breweries in the top six markets. Since Twitter API had limitations on the number tweets that could be streamed at a time, I decided to stream at least 1000 unique tweets per city. I after several hours I had a six csv files with 6280 tweets.
+The dataset was finally ready and I was ready to stream tweets for each brewery in the top six that contained a twitter name. I began with creating a list of those breweries. I used the Twitter API tweepy to stream tweets about breweries in the top six markets. Since Twitter API had limitations on the number tweets that could be streamed at a time, I decided to stream at least 1000 unique tweets per city. I after several hours I had a six csv files with 6018 tweets.
 
 ![pic6](https://user-images.githubusercontent.com/36432832/44661322-88974080-a9c7-11e8-9c7a-cd0931125c6d.png)
 
